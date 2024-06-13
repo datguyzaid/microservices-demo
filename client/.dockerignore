@@ -2,3 +2,5 @@ node_modules
 .eslintrc.cjs
 .gitignore
 README.md
+.dockerignore
+Dockerfile
