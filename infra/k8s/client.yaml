@@ -35,6 +35,6 @@ spec:
   ports:
     - name: client
       protocol: TCP
-      port: 4000
-      targetPort: 4000
+      port: 4004
+      targetPort: 4004
   type: ClusterIP
