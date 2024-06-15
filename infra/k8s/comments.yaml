@@ -15,6 +15,7 @@ spec:
       containers:
         - name: comments
           image: datguyzaid/comments:latest
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 4001
           resources:

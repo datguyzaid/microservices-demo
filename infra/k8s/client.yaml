@@ -15,6 +15,7 @@ spec:
       containers:
         - name: client
           image: datguyzaid/client:latest
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 4004
           resources:
