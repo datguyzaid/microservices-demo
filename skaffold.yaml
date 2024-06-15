@@ -6,7 +6,7 @@ build:
       context: client
       sync:
         manual:
-          - src: src/**/*.js
+          - src: src/**.jsx
             dest: .
       docker:
         dockerfile: Dockerfile
